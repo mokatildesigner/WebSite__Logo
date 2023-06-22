@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ====== Title of WebSite ====== -->
+    <title>WebSite Logo</title>
+
+    <!-- ====== Link CSS With HTML ====== -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- ====== Icon of WebSite ====== -->
+    <link rel="icon" href="assest/logo.icon">
+
+    <!-- ====== Code Font Link Google Font ======  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+
+
+    <!-- ====== Code Font Link fontawesome ======  -->
+    <script src="https://kit.fontawesome.com/a4c5bedc28.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <main>
+        <!-- ====== Section Home and NavBar ====== -->
+        <section id="Marketplace">
+
+            <header>
+
+                <!-- ====== NavBar ====== -->
+                <nav>
+
+                    <!-- ====== Logo of WebSite ====== -->
+                    <div class="logoMenu">
+                        <img src="assest/Logo.svg">
+
+                        <!-- ====== Menu Design ====== -->
+                        <div class="Menu">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="continer">
+
+                        <!-- ====== Links ul ====== -->
+                        <ul class="hhh">
+                            <li><a href="#Marketplace">Marketplace</a></li>
+                            <li><a href="#Artists">Artists</a></li>
+                            <li><a href="#Community">Community</a></li>
+                            <li><a href="#Collections">Collections</a></li>
+                            <li><a href="#Arts">Arts</a></li>
+                        </ul>
+
+                        <!-- ====== Sign up and Sign in ====== -->
+                        <div class="buttons">
+                            <a href="#">SIGN UP</a>
+                            <button>SIGN IN</button>
+                            <a href="DarkMode.html" class="DarkMode">
+                                <div class="Darkmode">
+                                    <i class="fa-solid fa-moon"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- ====== Javascript Animation Menu ====== -->
+                    <script>
+
+                        // open and close Menu
+                        const Menu = document.querySelector(".Menu")
+                        const links = document.querySelector(".continer")
+                        const Home = document.querySelector(".Page__Home")
+                        const body = document.querySelector("body")
+                        Menu.addEventListener('click', () => {
+                            links.classList.toggle('active')
+
+
+                        })
+
+                        // animation open and close Menu
+                        const line1 = document.querySelector(".line1")
+                        const line2 = document.querySelector(".line2")
+                        const line3 = document.querySelector(".line3")
+                        Menu.addEventListener('click', () => {
+                            line1.classList.toggle("active")
+                            line2.classList.toggle("active")
+                            line3.classList.toggle("active")
+                        })
+
+                    </script>
+
+                </nav>
+
+            </header>
+
+            <!-- ====== Page Home ======  -->
+            <section class="Page__Home">
+
+                <!-- ====== Parter 1 in Pgae Home ====== -->
+                <article>
+                    <div class="Title__Home">
+
+                        <!-- ====== Title of Project Home ====== -->
+                        <h1 class="h1__Home">Discover and collect the best NFT’s <span>Digital Art.</span> </h1>
+
+                        <!-- ====== Paragraph of Project Home ====== -->
+                        <p class="p__Home">Donec viverra eu eros nec eleifend. Donec venenatis sed libero at suscipit.
+                            Nullam gravida ligula
+                            quis interdum dignissim suspendisse et. Nullam quis enim ac lacus vehicula varius vitae sit
+                            amet
+                            arcu.
+                        </p>
+                    </div>
+
+                    <!-- ====== Button Explore and Learn ======-->
+                    <div class="button__Home">
+                        <button>explore now</button>
+                        <button>learn more</button>
+                    </div>
+
+                    <!-- ====== Art Works , Artists , Collections Statistics ====== -->
+                    <div class="Home__Statistics">
+
+                        <!-- ====== Card Art Works ====== -->
+                        <div class="Home__artWorks">
+                            <h1>9.0K</h1>
+                            <p>Art Works</p>
+                        </div>
+
+                        <!-- ====== Vertical line ====== -->
+                        <div class="Home__line"></div>
+
+                        <!-- ====== Card Artists ====== -->
+                        <div class="Home__Artists">
+                            <h1>70K</h1>
+                            <p>Artists</p>
+                        </div>
+
+                        <!-- ====== Vertical line ====== -->
+                        <div class="Home__line"></div>
+
+                        <!-- ====== Card Collections ====== -->
+                        <div class="Home__Collections">
+                            <h1>89K</h1>
+                            <p>Collections</p>
+                        </div>
+
+                    </div>
+
+                </article>
+                <!-- ====== Home Image and Date Mint ====== -->
+                <aside>
+                    <!-- ====== Image Home ====== -->
+                    <div class="Home__image__center">
+                        <div class="Home__image">
+                            <img src="assest/Home__Image.png">
+                        </div>
+                    </div>
+                    <div class="Home__Card__Mint">
+
+                        <!-- ====== Home Card Mint ====== -->
+                        <div class="Home__Card">
+
+                            <!-- ====== Card Containers ====== -->
+                            <div class="Card__containers">
+
+                                <!-- ====== Ends In Text ======-->
+                                <div>
+                                    <h5>Ends In</h5>
+                                    <p>05:32:47</p>
+                                </div>
+
+                                <!-- ====== Current bid Text ====== -->
+                                <div>
+                                    <h5>Current bid</h5>
+                                    <p>0.24ETH</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Place a bid Button ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+                    </div>
+
+                </aside>
+
+            </section>
+        </section>
+
+        <!-- ====== Section Artists ====== -->
+        <section id="Artists">
+
+            <!-- ====== Art Works and Card Designs ====== -->
+            <article>
+                <!-- ====== Big title of section Artists ====== -->
+                <div class="Top__Artists">
+
+                    <!-- ====== Title and Description of Section Artists ====== -->
+                    <div class="Title__Artists">
+
+                        <!-- ====== Big title of Section ====== -->
+                        <h1>Art Works</h1>
+                        <!-- ====== Description of Section ====== -->
+                        <p>600+ new art’s here</p>
+
+                    </div>
+
+                </div>
+
+                <!-- ====== Category of NFT ====== -->
+                <div class="Buttons__Artists">
+                    <div class="Buttons__Click">
+                        <button class="active12">All NFTs</button>
+                        <button>Trending</button>
+                        <button>Popular</button>
+                        <button>Oil Paint</button>
+                        <button>Sculpture</button>
+                    </div>
+                </div>
+                <!-- Click Button JavaScript -->
+                <script>
+                    const buttons = document.querySelectorAll(".Buttons__Click button")
+
+                    const remove = () => {
+                        buttons.forEach((tab) => {
+                            tab.classList.remove("active12");
+                        });
+                    };
+
+                    buttons.forEach((tab) => {
+                        tab.addEventListener("click", () => {
+                            remove()
+                            tab.classList.add("active12")
+                        });
+                    });
+
+                </script>
+
+            </article>
+
+            <section class="NFT__Artists">
+                <!-- ====== NFT Card and Price ====== -->
+                <section class="NFT__Cards">
+
+                    <!-- ====== NFT Card 1 ====== -->
+                    <div class="NFT__Card">
+
+                        <!-- ====== Image NFT Card 1 ====== -->
+                        <div class="Image__Card">
+                            <img src="assest/image card1.png">
+                        </div>
+
+                        <!-- ====== Title and Price NFT Card 1 ====== -->
+                        <div class="Title__Card">
+                            <h1>Infinity Planet</h1>
+                            <p>1.29 ETH</p>
+                        </div>
+
+                        <!-- ====== Date and Button Place a Bide NFT card 1 ====== -->
+                        <div>
+                            <div class="Description__Card">
+                                <h5>Ending In</h5>
+
+                                <!-- ====== Date with icon clock ====== -->
+                                <div class="Date__Card">
+                                    <img src="assest/clock.svg">
+                                    <p>03:22:45</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Button Place a Paid ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ====== NFT Card 2 ====== -->
+                    <div class="NFT__Card">
+
+                        <!-- ====== Image NFT Card 2 ====== -->
+                        <div class="Image__Card">
+                            <img src="assest/image card2.png">
+                        </div>
+
+                        <!-- ====== Title and Price NFT Card 2 ====== -->
+                        <div class="Title__Card">
+                            <h1>Blue Moscrepe</h1>
+                            <p>1.02 ETH</p>
+                        </div>
+
+                        <!-- ====== Date and Button Place a Bide NFT card 2 ====== -->
+                        <div>
+                            <div class="Description__Card">
+                                <h5>Ending In</h5>
+
+                                <!-- ====== Date with icon clock ====== -->
+                                <div class="Date__Card">
+                                    <img src="assest/clock.svg">
+                                    <p>04:32:45</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Button Place a Paid ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- ====== NFT Card 3 ====== -->
+                    <div class="NFT__Card">
+
+                        <!-- ====== Image NFT Card 3 ====== -->
+                        <div class="Image__Card">
+                            <img src="assest/image card3.png">
+                        </div>
+
+                        <!-- ====== Title and Price NFT Card 3 ====== -->
+                        <div class="Title__Card">
+                            <h1>Natural Stars #12</h1>
+                            <p>1.34 ETH</p>
+                        </div>
+
+                        <!-- ====== Date and Button Place a Bide NFT card 3 ====== -->
+                        <div>
+                            <div class="Description__Card">
+                                <h5>Ending In</h5>
+
+                                <!-- ====== Date with icon clock ====== -->
+                                <div class="Date__Card">
+                                    <img src="assest/clock.svg">
+                                    <p>03:45:22</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Button Place a Paid ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ====== NFT Card 4 ====== -->
+                    <div class="NFT__Card">
+
+                        <!-- ====== Image NFT Card 4 ====== -->
+                        <div class="Image__Card">
+                            <img src="assest/image card4.png">
+                        </div>
+
+                        <!-- ====== Title and Price NFT Card 4 ====== -->
+                        <div class="Title__Card">
+                            <h1>Baffled Egg</h1>
+                            <p>1.45 ETH</p>
+                        </div>
+
+                        <!-- ====== Date and Button Place a Bide NFT card 4 ====== -->
+                        <div>
+                            <div class="Description__Card">
+                                <h5>Ending In</h5>
+
+                                <!-- ====== Date with icon clock ====== -->
+                                <div class="Date__Card">
+                                    <img src="assest/clock.svg">
+                                    <p>02:10:33</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Button Place a Paid ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ====== NFT Card 5 ====== -->
+                    <div class="NFT__Card">
+
+                        <!-- ====== Image NFT Card 5 ====== -->
+                        <div class="Image__Card">
+                            <img src="assest/image card5.png">
+                        </div>
+
+                        <!-- ====== Title and Price NFT Card 5 ====== -->
+                        <div class="Title__Card">
+                            <h1>Mixed Feelings</h1>
+                            <p>1.72 ETH</p>
+                        </div>
+
+                        <!-- ====== Date and Button Place a Bide NFT card 5 ====== -->
+                        <div>
+                            <div class="Description__Card">
+                                <h5>Ending In</h5>
+
+                                <!-- ====== Date with icon clock ====== -->
+                                <div class="Date__Card">
+                                    <img src="assest/clock.svg">
+                                    <p>04:45:21</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Button Place a Paid ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ====== NFT Card 6 ====== -->
+                    <div class="NFT__Card">
+
+                        <!-- ====== Image NFT Card 6 ====== -->
+                        <div class="Image__Card">
+                            <img src="assest/image card6.png">
+                        </div>
+
+                        <!-- ====== Title and Price NFT Card 6 ====== -->
+                        <div class="Title__Card">
+                            <h1>Fishman Diamond</h1>
+                            <p>1.09 ETH</p>
+                        </div>
+
+                        <!-- ====== Date and Button Place a Bide NFT card 6 ====== -->
+                        <div>
+                            <div class="Description__Card">
+                                <h5>Ending In</h5>
+
+                                <!-- ====== Date with icon clock ====== -->
+                                <div class="Date__Card">
+                                    <img src="assest/clock.svg">
+                                    <p>02:14:45</p>
+                                </div>
+
+                            </div>
+
+                            <!-- ====== Button Place a Paid ====== -->
+                            <button>place a bid</button>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+        </section>
+
+        <!-- ====== Section Community ====== -->
+        <section id="Community">
+            <div class="Community__Cards">
+                <!-- ====== Aricles With Paragraphs ====== -->
+                <article class="Community__Paragraphs">
+    
+                    <!-- ====== Paragraph N°1 ====== -->
+                    <div class="Community__Paragraph">
+    
+                        <!-- ====== Image of Paragraph ====== -->
+                        <img src="assest/Shape1.svg">
+    
+                        <!-- ====== Title of Paragraph ====== -->
+                        <h1>Discover new artists</h1>
+    
+                        <!-- ====== Description of Paragraph ====== -->
+                        <p>Etiam eget hendrerit orci. Sed blandit scelerisque leo at ena dignissim vel morbi ac.</p>
+                        
+                    </div>
+    
+                    <!-- ====== Paragraph N°2 ====== -->
+                    <div class="Community__Paragraph">
+    
+                        <!-- ====== Image of Paragraph ====== -->
+                        <img src="assest/dollar.svg">
+    
+                        <!-- ====== Title of Paragraph ====== -->
+                        <h1>Get avarege marketplace</h1>
+    
+                        <!-- ====== Description of Paragraph ====== -->
+                        <p>Donec vel elementum felis en Aenean varius lobortis dolor quis convallis etiam porta.</p>
+                        
+                    </div>
+                    <!-- ====== Paragraph N°3 ====== -->
+                    <div class="Community__Paragraph">
+    
+                        <!-- ====== Image of Paragraph ====== -->
+                        <img src="assest/ffffff.svg">
+    
+                        <!-- ====== Title of Paragraph ====== -->
+                        <h1>Be notified of new arts</h1>
+    
+                        <!-- ====== Description of Paragraph ====== -->
+                        <p>Maecenas dictum tempus ena tristique. Class aptent taciti a sociosqu ad litora tor.</p>
+                        
+                    </div>
+                    
+    
+                </article>
+    
+                <!-- ====== Paragraph N°4 ====== -->
+                <div class="Community__Paragraph__4">
+    
+                    <!-- ====== Image of Paragraph ====== -->
+                    <img src="assest/print.svg">
+    
+                    <!-- ====== Title of Paragraph ====== -->
+                    <h1>Acquire a work of art</h1>
+    
+                    <!-- ====== Description of Paragraph ====== -->
+                    <p>Duis ornare, ligula eget eleifend volutpat, erat purus pretium nunc non ornare magna erat vitae.</p>
+                    
+                </div>
+
+            </div>
+
+
+        </section>
+        
+        <!-- ====== Section Artist List ======  -->
+        <section id="ArtistList">
+
+            <!-- ====== Continer of Artist List ======  -->
+            <article>
+
+                <!-- ====== Title and buttons of section Artist List ======  -->
+                <div class="Continer__Artist__List">
+
+                    <!-- ====== Title of Section  ======  -->
+                    <h1>Artist List</h1>
+                    
+                    <!-- ====== Buttons of Section ======  -->
+                    <div class="Buttons__Artists__List">
+                        <button class="active21">Popular</button>
+                        <button>New</button>
+                    </div>
+
+                    <!-- ====== Click Buttons ======  -->
+                    <script>
+                        const buttons2 = document.querySelectorAll(".Buttons__Artists__List button")
+    
+                        const remov = () => {
+                            buttons2.forEach((tab) => {
+                                tab.classList.remove("active21");
+                            });
+                        };
+    
+                        buttons2.forEach((tab) => {
+                            tab.addEventListener("click", () => {
+                                remov()
+                                tab.classList.add("active21")
+                            });
+                        });
+    
+                    </script>
+
+                </div>
+
+                <!-- ====== Cards of Section ====== -->
+                <div class="Cards___Artist__List">
+
+                    <!-- ====== Card 1 of Section ====== -->
+                    <div class="Card__Artist__List">
+                        
+                        <!-- ====== Cards of Section ====== -->
+                        <img class="Imag__Artists__List" src="assest/image card3.png" >
+
+                        <!-- ====== Cards of Section ====== -->
+                        <div class="Person__Artists__List">
+                            <img src="assest/artis1.png" >
+                        </div>
+                        
+                        <!-- ====== Name of Artist  ====== -->
+                        <h1>Christopher Brown</h1>
+
+                        <!-- ====== Number of ArtWork ====== -->
+                        <p>120 NFT</p>
+
+                        <!-- ====== Button of Card ====== -->
+                        <button>follow artist</button>
+
+                    </div>
+
+                     <!-- ====== Card 2 of Section ====== -->
+                     <div class="Card__Artist__List">
+                        
+                        <!-- ====== Cards of Section ====== -->
+                        <img class="Imag__Artists__List" src="assest/image card4.png" >
+
+                        <!-- ====== Cards of Section ====== -->
+                        <div class="Person__Artists__List">
+                            <img src="assest/artis2.png" >
+                        </div>
+                        
+                        <!-- ====== Name of Artist  ====== -->
+                        <h1>Christopher Brown</h1>
+
+                        <!-- ====== Number of ArtWork ====== -->
+                        <p>118 NFT</p>
+
+                        <!-- ====== Button of Card ====== -->
+                        <button>follow artist</button>
+
+                    </div>
+
+
+                    <!-- ====== Card 3 of Section ====== -->
+                    <div class="Card__Artist__List">
+                        
+                        <!-- ====== Cards of Section ====== -->
+                        <img class="Imag__Artists__List" src="assest/image card2.png" >
+
+                        <!-- ====== Cards of Section ====== -->
+                        <div class="Person__Artists__List">
+                            <img src="assest/artis3.png" >
+                        </div>
+                        
+                        <!-- ====== Name of Artist  ====== -->
+                        <h1>Christopher Brown</h1>
+
+                        <!-- ====== Number of ArtWork ====== -->
+                        <p>122 NFT</p>
+
+                        <!-- ====== Button of Card ====== -->
+                        <button>follow artist</button>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+            </article>
+            
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
