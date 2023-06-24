@@ -987,6 +987,10 @@ nav div button:hover {
     width: 100%;
 }
 
+.Card__Artist__List button:hover{
+    transform: scale(1.05);
+}
+
 @media only screen and (max-width:1024px){
     .Imag__Artists__List{
         width: 20rem;
